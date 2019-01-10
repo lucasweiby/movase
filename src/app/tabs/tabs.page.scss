@@ -1,1 +1,8 @@
+@import "../tab1/tab1.page.scss";
 
+$red: #b7181d;
+$tabs-ios-tab-text-color-active: $red;
+
+ion-tab-button {
+    font-family: 'Montserrat';
+}

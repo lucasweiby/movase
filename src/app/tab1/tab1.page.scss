@@ -1,4 +1,35 @@
+@import "../../assets/fonts/stylesheet.css";
+
+//variables
+$red: #b7181d;
+$white: #fff;
+$main-font: 'Montserrat';
+
+.welcome {
+  height: auto;
+  width: 100vw;
+  padding: 32px;
+  font-family: 'Montserrat';
+  background-color: $red;
+  color: $white;
+  h1 {
+    font-weight: 900;
+    font-size: 64px;
+  }
+  h6 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+
 .welcome-card ion-img {
   max-height: 35vh;
   overflow: hidden;
+}
+
+ion-list {
+  -webkit-box-shadow: -1px -7px 42px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: -1px -7px 42px 0px rgba(0,0,0,0.2);
+  box-shadow: -1px -7px 42px 0px rgba(0,0,0,0.2);
 }
